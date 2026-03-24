@@ -69,7 +69,7 @@ if __name__ == "__main__":
     import time
 
     INTERVAL_SEC = 60
-    session_date = datetime.datetime.now(IST).strftime("%Y-%m-%d")
+    session_date = datetime.datetime.now(IST).strftime("%Y_%m_%d")
 
     now_ist = datetime.datetime.now(IST)
     market_start = now_ist.replace(hour=9, minute=15, second=0, microsecond=0)
