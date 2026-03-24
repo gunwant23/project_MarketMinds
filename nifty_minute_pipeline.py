@@ -16,6 +16,7 @@
 
 # COMMAND ----------
 
+# DBTITLE 1,Cell 3
 """
 Nifty 50 Live Fetcher
 - Checks if NSE market is currently open (IST)
@@ -120,10 +121,6 @@ if __name__ == "__main__":
                     .mode("append") \
                     .option("mergeSchema", "true") \
                     .saveAsTable(table_name)
-
-                # Read the Delta table as a streaming DataFrame and display
-                df_live = spark.readStream.table(table_name)
-                display(df_live)
             else:
                 print(f"[{now_ist.strftime('%H:%M:%S')}]  ⚠  No data returned — skipping tick.")
 
