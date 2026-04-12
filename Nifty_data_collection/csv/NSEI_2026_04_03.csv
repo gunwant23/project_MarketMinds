@@ -1,0 +1,2 @@
+tick_ts,bar_ts,tick_time_str,bar_time_str,symbol,year,month,date,day,hour,minute,week_of_month,open,high,low,close,volume,typical_price,vwap,price_range,return_pct,log_return,body_pct,upper_shadow,lower_shadow,hl_ratio,session_number,expiry,is_monthly_expiry,days_to_expiry,data_quality,fetch_latency_ms
+2026-04-03 09:35:31.927661,2026-04-02 15:28:00,09:35,15:28,^NSEI,2026,4,2,3,15,28,1,22704.9,22705.4,22696.0,22700.15,0.0,22700.52,22700.52,9.4,-0.0209,0.0,50.53,0.5,4.15,1.000414,6,0,0,5,OK_NO_VOL,560.5
